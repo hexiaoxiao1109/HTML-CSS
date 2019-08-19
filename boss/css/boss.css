@@ -1,0 +1,129 @@
+
+
+/* 清除所有的间隙 */
+*{margin: 0;padding: 0}
+/* 清除列表的符号 */
+li{list-style: none}
+/* 清除超链接的下划线 和字体颜色*/
+a{text-decoration: none;color: black}
+body{background: #f3f3f3}
+
+
+
+
+/* top */
+.top_wrap{width: 100%;height: 100px;background: white}
+.top{width: 1172px;height: 100px;margin: 0 auto;}
+/* 左边的logo和链接 */
+.top p{height: 56px;margin-top: 23px;float: left}
+.top img{float: left}
+.top a{display: block;float: left;margin: 20px 0 0 40px;color: #333}
+.top a b{color:#53cac3 }
+.top a:hover{color: #53cac3}
+/* 右边 */
+.top .top_right{float: right;}
+.top .top_right a{display: block;margin-left: 19px;color: #202020}
+.top .top_right a span{color: #e5e5e5}
+.top .top_right a:hover{color: #202020}
+
+
+
+
+
+/* banner */
+/* 最外面的插入图片平铺  当背景 */
+.banner_wrap{width: 100%;height: 399px;background-image: url(../img/Boss直聘/bg.png)}
+/* 出现了margin解析问题 */
+.banner{width: 1172px;height: 399px;margin: auto;overflow: hidden;}
+.banner h4{color: white;font-size: 35px;font-weight: 500;text-align: center;margin-top: 100px}
+.banner p{margin: 52px auto;text-align: center}
+
+
+
+
+
+/* content */
+/* 最外面的 */
+.content_wrap{width: 1172px;height: 436px;background: white;margin: -68px auto 0;overflow: hidden;}
+/* 三个主体 */
+.content_wrap .content{width: 285px;height: 334px;border-right: 1px solid #ededed;margin-top: 44px;padding: 5px 52px;float: left;}
+/* 主体里面的内容 */
+.content_top{height: 15px;border-left: 3px solid #53cac3;padding-left: 9px;margin: -8px 0 42px;}
+.content_wrap span {display: block;width:90px;font-size: 16px;color: #666;float: left;margin-top: -4px}
+.content_wrap  a{display: block;width: 49px;height: 20px;background-image: url(../img/Boss直聘/content_more.png);float: right;margin-top: -3px}
+/* 中间不一样的色彩 */
+.content_wrap .more a{background-position: 0 -30px;color: #5ecec7}
+/* 鼠标划过的时候 */
+.content_wrap  a:hover{background-position: 0 -30px}
+/* 这是下面图片加文字的dl */
+.content_wrap dl img{margin-bottom: 25px}
+.content_wrap dl dd{font: bold 19px/32px "微软雅黑"}
+.content_wrap dl dd a{font-size: 14px;color: #a7a7a7;float: left;background-image: none;width: 60px;margin-top: 14px}
+.content_wrap dl dd a:hover{color: #5ecec7}
+/* 去掉右边的右边框 */
+.content_wrap .content_right{border: none;margin-right: -1px}
+
+
+
+
+/* explain解释说明 */
+.explain_wrap{width: 1080px;height: 693px;background: white;margin: 16px auto 15px;padding:32px 46px 0}
+.explain_wrap dl{width: 100%;height: 190px;padding: 35px 0 0 5px;border-bottom: 1px solid #ededed}
+.explain_wrap dl img{float: left;margin-right: 30px}
+.explain_wrap dd{font-size: 19px;margin-bottom: 13px}
+.explain_wrap dd p{font: 12px/24px "微软雅黑";color: #959595;margin-bottom: 28px}
+.explain_wrap dd p a{color: #666}
+.explain_wrap dd p img{clear: both;margin-left:464px;}
+.explain_wrap dd p span{color: #53cac3}
+
+
+
+
+/* bottom_news */
+.bottom_wrap{width: 1126px;height: 433px;margin: auto;padding-left: 46px;}
+/* 左边 */
+.bottom_wrap .bottom_left{width: 648px;display: inline-block}
+/* 前面的“|” */
+.bottom_left div{height: 15px;border-left: 3px solid #53cac3 ;display: inline-block;margin-top: 0}
+/* 新闻动态 */
+.bottom_wrap p{display: inline-block;margin-top: 23px;font-size: 17px;color: #53cac3;margin-bottom: 14px}
+/* 三个div */
+/* .bottom_left dl{width: 648px;border-bottom: 1px dotted #888;display: inline-block;margin-top: 15px;height: 104px} */
+/* .bottom_left dl dt{width: 150px;display: inline} */
+/* .bottom_wrap .bottom-left{float: left;margin-right:17px;  } */
+/* .bottom-left dl a{float: left;display:inline-block} */
+/* .bottom_wrap .news_one{height: 104px} */
+/* .bottom-left .news_one a{color: #53cac3} */
+
+/* 这是右下的图 */
+.bottom_wrap .news_bigpic{float: right;margin-top: 75px}
+
+
+
+
+/* footer */
+.footer_wrap{width: 100%;height: 233px;background: black;margin-top: 30px}
+.footer{width: 1172px;height: 233px;margin: auto;overflow: hidden;color: white}
+.footer div{font-size: 18px; margin: 62px 0 22px;text-align: center;font-weight: 400}
+.footer a{color: white}
+.footer p{font: 13px/28px "微软雅黑";text-align: center;}
+.footer p a:hover{color: #53cac3}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

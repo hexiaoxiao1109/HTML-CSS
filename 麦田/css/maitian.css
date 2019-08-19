@@ -1,0 +1,95 @@
+/* 重置样式  */
+
+body, ul, dl, dt, dd, p, ol, h1, h2, h3, h4, h5, h6, form, img, table, fieldset, legend {
+    margin: 0;
+    padding: 0;
+}
+
+ul, li, ol {
+    list-style: none;
+}
+
+img, fieldset {
+    border: 0;
+}
+
+img {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 100;
+}
+
+body {
+    font-family: "微软雅黑";
+}
+
+input, a {
+    outline: none;
+}
+
+/* top */
+
+#top_wrap {
+    width: 100%
+}
+
+.top {
+    width: 1140px;
+    height: 104px;
+    margin: 0 auto;
+    overflow: hidden
+}
+
+.top_left {
+    float: left;
+}
+
+.top_left img {
+    margin: 24px 38px 0 0;
+    display: inline-block;
+}
+
+.top .top_right {
+    width: 616px;
+    height: 72px;
+    float: right;
+    margin-top: 31px
+}
+
+.top_right li {
+    float: left;
+}
+
+.top_right a {
+    display: block;
+    width: 88px;
+    height: 72px;
+    /* background: url(../img/top_nav.png); */
+    text-align: center;
+    line-height: 72px
+}
+
+.top_right a:hover {
+    background: url(../img/top_nav.png);
+    color: white
+}
+
+/* footer */
+
+#footer_wrap {
+    width: 100%;
+    height: 138px;
+    background: #363636
+}
+
+.footer {
+    height: 138px;
+    background: orange;
+}

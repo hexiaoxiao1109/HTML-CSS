@@ -1,0 +1,226 @@
+/* 居中是整体的74.8%大约为1189px； */
+
+/* 清除所有的间隙 */
+*{margin: 0;padding: 0}
+/* 清除列表的符号 */
+li{list-style: none}
+/* 清除超链接的下划线 和字体颜色*/
+a{text-decoration: none;color: black}
+
+
+
+/* .top_wrap{} */
+
+
+
+/* 这是头部top */
+.top_wrap{height: 26px;background: #eee;}
+.top{width: 1189px;height: 26px;margin-left: 80px}
+
+/* 六个超链接，插入图集 */
+.top_wrap a{display: block; height:26px;font: 12px/26px "微软雅黑";
+    text-align: center;border-right: 1px solid #d5d5d5;float: left;background-image:url(../img/shoes_top.png)  }
+.top_one{width:176px;margin-left: 433px;background-position:180px 0;color: #ff6600 }
+.top_two{width: 101px;background-position:180px 0; }
+.top_three{width: 116px;background-position:10px -45px }
+.top_four{width: 91px;background-position:180px 0}
+.top_five{width: 111px;background-position:8px -6px}
+.top_six{width: 155px;background-position:20px -82px}
+
+
+
+
+
+/* 这是logo和search */
+.logo_search{width: 1189px;height: 77px;margin-left: 80px}
+
+/* 这是左边的logo */
+.logo{width: 421px;height: 63px;background: #999;float: left;margin: 7px 0;background-image:url(../img/名鞋库新/default_icon_bg.png); }
+
+/* 这是中间的搜索框和下边文字 */
+.search_wrap{width: 340px;height: 61px;float: left;margin: 16px 0 0 100px}
+.search input{width: 272px;height: 26px;border: 2px solid #d5d5d5;color: #666666;padding-left: 6px;float: left;outline: none}
+.search_wrap button{width: 60px;height: 30px;background: #444;text-align: center;font: 15px/30px "微软雅黑";float: left;border: none;float: left;margin-left: -2px;color: white }
+.search_wrap span{display: block;color: #ccc;float: left;font-size: 12px;margin-top: 8px}
+.search_wrap a{color: #888;font-size: 12px;display: block;margin: 8px 0 0 11px;float: left;}
+
+/* 这是右边的购物车 */
+.shoppingcar{width: 126px;height: 35px;margin-top:20px ;;float: right;background-image: url(../img/名鞋库新/default_icon_bg.png);background-position:0 -62px }
+.shoppingcar a{display: block;width: 126px;height: 35px;color: #666}
+.shoppingcar span{font: 12px/34px "微软雅黑"; color: #666;display: block;margin-left: 46px}
+.shoppingcar b{color: red}
+.shoppingcar a:hover{background-image: url(../img/名鞋库新/default_icon_bg.png);background-position: 0 -97px}
+.shoppingcar a:hover span{color: white}
+
+
+
+
+/* 这是nav */
+.nav_wrap{width: 100%;height: 34px;background: #a21f25;}
+.nav{height: 34px;margin-left: 80px;float: left;}
+.nav span{color: #d9a4a7;display: block;float: left;}
+.nav a{display: block;float: left;text-align: center;line-height: 34px;font-size: 14px;color: white;margin-right: -2px}
+.nav .links_one{display:block;width: 184px;height: 34px;background-image: url(../img/名鞋库新/default_icon_bg.png);background-position: -128px -63px}
+.nav .links_two{display:block;width: 76px;height: 34}
+.nav .links_three{display:block;width: 103px;height: 34px}
+.nav .links_four{display:block;width: 103px;height: 34px}
+.nav .links_five{display:block;width: 75px;height: 34px}
+.nav .links_six{display:block;width: 75px;height: 34px}
+.nav .links_seven{display:block;width: 75px;height: 34px}
+/* 鼠标划过时 */
+.nav a:hover{background: #444}
+.nav .links_one:hover{background-image: url(../img/名鞋库新/default_icon_bg.png);background-position: -128px -97px}
+.nav a:hover span{display: none}
+/* 这是nav右边 */
+.nav_right{height: 34px;float: right;margin-right: 80px}
+.nav_right a{display:block;width: 68px;height: 14px;float: left;color: white;margin-top: 11px;font-size: 12px;text-align: center;border-right: 1px solid #d18f92;line-height: 14px}
+.nav_right span{color: #ffcc00}
+
+
+
+
+/* 这是banner */
+
+.banner_wrap{width: 100%;height: 385px;margin-bottom: 33px}
+.banner_wrap img{width: 100%}
+/* .banner{height: 550px;width: 1189px;background: #bda7be;margin: auto} */
+
+
+
+
+
+/* 这是band商标 */
+.band_wrap{width: 1189px;height: 214px;margin-bottom:10px;margin: auto }
+.band{width: 990px;height: 214px;background: #fff;;float: left;}
+/* 21个商标 */
+.band a{display: block;width: 140px;height: 70px;border: 1px solid #dfdfdf;float: left;margin: -1px 0 0 -1px;background-image: url(../img/名鞋库新/default_brandwall_bgwide.png)}
+.band .iocn1{background-position: 20px 464px}
+.band .iocn2{background-position: -138px -176px}
+.band .iocn3{background-position: -135px -256px}
+.band .iocn4{background-position: -475px -255px}
+.band .iocn5{background-position: -825px -173px}
+.band .iocn6{background-position: 17px 383px}
+.band .iocn7{background-position: -480px -8px}
+.band .iocn8{background-position:  -300px -333px}
+.band .iocn9{background-position: -1158px -173px}
+.band .iocn10{background-position: -990px -176px}
+.band .iocn11{background-position: -305px -480px}
+.band .iocn12{background-position: -655px -176px}
+.band .iocn13{background-position: -475px -176px}
+.band .iocn14{background-position: -1150px -328px}
+.band .iocn15{background-position: -300px -176px}
+.band .iocn16{background-position: -990px -330px}
+.band .iocn17{background-position: -310px -545px}
+.band .iocn18{background-position: -135px -545px}
+.band .iocn19{background-position: -480px -550px}
+.band .iocn20{background-position: -480px -480px}
+.band .iocn21{background-position: -480px -415px}
+/* band商标右边    需讲解  */
+.new_product{width: 190px;height: 214px;float: right;}
+/* 这是上面列表 */
+.new_product ul{width: 188px;height: 64px;border: 1px solid #f1f1f1}
+.new_product li{list-style-image: url(../img/名鞋库新/arrow_3.gif);font-size: 12px;list-style-position: inside;margin: 2px 0 0 6px;line-height: 20px}
+.new_product a:hover{color: red}
+/* 这是下面图片和文字 */
+.new_product dd a{display: block;height: 36px;font-size: 15px;line-height: 36px;float: left;}
+span{color: #d2d2d2}
+.new_product dd a:hover{color: black;font-size:16px }
+.new_product dt img{border:1px solid #eee;padding: 3px;}
+
+
+
+
+
+
+/* special_area专区 */
+.special_area{width: 1189px;height: 292px;margin: 10px 80px; }
+.special_area .area_five{float: right;margin-right:0px }
+.special_area a{width: 228px;height: 292px;display: block;float: left;margin-right:9px;border: 1px solid #999 }
+.special_area img{width: 100%;height: 100%}
+
+
+
+
+/* shoes_area */
+.shoes_area{width: 1189px;height: 426px;margin: auto;margin-bottom: 20px}
+/* shoes_area_left */
+.shoes_left{width: 190px;height: 426px;float: left;}
+/* 这是图标列表 */
+.shoes_left a{display: block;width: 95px;height: 40px;border: 1px dashed #ddd;margin: -5px 0 4px -1px;border-right: none;border-top: none;float: left;background-image: url(../img/名鞋库新/201409101646002.png)}
+.shoes_left .left_one{border-left: none;}
+.shoes_left .left_two{background-position: 0 -38px}
+.shoes_left .left_three{border-left: none;background-position: 0 -76px}
+.shoes_left .left_four{background-position: 0 -112px}
+.shoes_left .left_five{border-left: none;background-position: 0 -150px}
+.shoes_left .left_six{background-position: 0 -188px}
+.shoes_left .left_seven{border-left: none;background-position: 0 -226px}
+.shoes_left .left_eight{background-position: 0 -264px}
+.shoes_left .left_nine{border-left: none;background-position: 0 -302px}
+.shoes_left .left_ten{background-position: 0 -340px}
+.shoes_left .left_eleven{border-left: none;background-position: 0 -378px}
+.shoes_left .left_twelve{background-position: 0 -418px}
+/* 这是文字分类 */
+.shoes_left ul a{display: block;width: 88px;height:26px;background-image: none;font: bold 13px/26px "微软雅黑";padding-left: 8px;border: none}
+.shoes_left ul .space{margin-top: 10px}
+.shoes-left ul a:hover{font-size:14px;color: red }
+
+.shoes_middle{width: 393px;height: 426px;float: left;margin-left: 10px}
+
+.shoes_right{width: 596px;height:100%;float: right;}
+.shoes_right .man a{display: block;width: 197.6px;height: 244px;border-left: 1px solid #d2d2d2;float: left;border-bottom:  1px solid #d2d2d2}
+.shoes_rght .man .without{border-right: none}
+.shoes_right .women a{display: block;width: 197.3px;height: 181px;border-left: 1px solid #d2d2d2;float: left;}
+
+
+
+
+
+/* bottom */
+.bottom_wrap{width: 100%;height:227px ;border-top: 2px solid red}
+.bottom{width:1189px;height: 197px;margin: 15px auto}
+.bottom_left{ width: 231px;height: 197px;border-right: 1px solid #dedede;float: left;margin-right: 50px}
+.bottom img{float: left;margin: 5px 80px 12px 0}
+.bottom_pic{margin-left: -22px}
+
+.bottom dl{margin-top:12px;float: left; }
+.rightbottom_one{margin-right:160px}
+.rightbottom_two{margin-right:130px}
+.rightbottom_three{margin-right:184px}
+.bottom dt{font: bold 15px/27px "微软雅黑";}
+.bottom dl a{font: 10px/20px "微软雅黑";color: #999}
+
+
+
+
+
+
+/* footer */
+.footer_wrap{width:100%px;height:148px;border-top: 1px solid #e8e8e8}
+.footer{width:1189px;height:148px;margin: auto;overflow: hidden;}
+.footer p{display: block;margin: 20px auto;font-size: 12px;text-align: center;}
+p a{color: #777}
+.footer p span{color: #ccc}
+.footer .footer_middle{display: block;margin-top:-20px;color: #777}
+.footer .footer_middle span{font-weight: bold;color: red;font-size: 20px}
+.footer .footer_middle a:hover{color: red;text-decoration: underline}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
